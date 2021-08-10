@@ -1,16 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 import Hamburger from "./Hamburger";
+// import loadConfig from "next/dist/next-server/server/config";
 
 const Index = () => {
+  // const [value, setValue] = useState(false);
+
+  // const headerHandler = () => {
+  //   const position = window.pageYOffset;
+  //   setValue(position);
+  // };
+
+  // const changeBackground = () => {
+  //   if (window.scrollY >= 100) {
+  //     setValue(false);
+  //   } else {
+  //     setValue(true);
+  //   }
+  // };
+
+  // window.addEventListener("scroll", changeBackground);
+
   return (
     <section
       className="hero-section"
       style={{ backgroundImage: "url('images/desktop/image-hero.jpg')" }}
     >
       <div className="container">
-        <header className="header">
+        <header className="header fixed-header">
           <Logo />
           <Navbar />
           <Hamburger />

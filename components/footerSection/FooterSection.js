@@ -16,27 +16,28 @@ export default function FooterSection() {
           </div>
           <div className="social-media">
             <Image
+              className="img"
               src="/images/icon-facebook.svg"
               alt="Facebook"
-              width={24}
+              width={16}
               height={16}
             />
             <Image
               src="/images/icon-twitter.svg"
               alt="Facebook"
-              width={24}
+              width={16}
               height={16}
             />
             <Image
               src="/images/icon-pinterest.svg"
               alt="Facebook"
-              width={24}
+              width={16}
               height={16}
             />
             <Image
               src="/images/icon-instagram.svg"
               alt="Facebook"
-              width={24}
+              width={16}
               height={16}
             />
           </div>

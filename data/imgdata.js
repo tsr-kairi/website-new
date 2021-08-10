@@ -37,25 +37,25 @@ const data = [
   },
 
   {
-    id: 1,
+    id: 5,
     image: AboveImg,
     text: "From Up Above Vr",
     alt: "Above Image",
   },
   {
-    id: 2,
+    id: 6,
     image: PocketImg,
     text: "Pocket Borealis",
     alt: "Pocket Image",
   },
   {
-    id: 3,
+    id: 7,
     image: CuriosityImg,
     text: "The Curiosity",
     alt: "Curiosity Image",
   },
   {
-    id: 4,
+    id: 8,
     image: FisheyeImg,
     text: "Make it fisheye",
     alt: "Fisheye Image",
