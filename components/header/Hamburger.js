@@ -8,9 +8,7 @@ export default function Hamburger() {
   const handleClick = () => setClick(!click);
   return (
     <div className="hamburger" onClick={handleClick}>
-      {/* <Image src={hamburgerSvg} alt="hamburger-Svg" /> */}
-      <i className={click ? "fas fa-times" : "fas fa-bars"} />
-
+      <Image src={hamburgerSvg} alt="hamburger-Svg" />
       <div className="options">
         <span>menu</span>
       </div>
